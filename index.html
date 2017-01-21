@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Language" content="en" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Playground: Onboarding - a responsive "whats new" mini slide show</title>
+	<meta name="description" content="Onboarding - a responsive ""whats new"" mini slide show injected by a tiny Javascript">
+	<meta name="keywords" content="javacript, jquery, onboarding, responsive, whats new, slide show, slideshow, css, cookie">
+	<meta name="author" content="Ray Hyde | www.rayhyde.nl">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Carter+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+
+	</style>
+</head>
+
+<body>
+	<div class="menu-container">
+		<h2>Onboarding - a responsive "whats new" mini slide show</h2>
+		<h4>Inject a full mini slide show</h4>
+		<p>Sometimes you want to tell your users what the (newest) features are in your web app. Often this has to be done when everything is already finished and ready to go.</p>
+		
+		<p>This onboarding mini slide show is easy to change. It has all the text of the slides in a single Javascript pbject at the beginning of the script. Changing the CSS is a little harder as it is injected minimized into the &lt;head&gt; of the page. But if you are a frontder worth you salt, this is of no consequence to you.</p>
+		
+		<p>The user can check a box to indicate he does not want to see the onboarding again. This sets a cookie so we are sure it's not show on that device anymore.</p>
+		
+		<p>The script is a two-stage rocket. You add the tiny stage 1 script to your page, which just checks if there is no cookie present that indicates that the user does not want to see the show again. If there is no cookie, then the full script is injected into the &lt;head&gt; of the page. This stage 2 script carries the full payload of HTML, CSS and jQuery for your onboarding slide show.</p>
+		
+		<p>A very good article that explains the do's and don'ts of good onboarding is <a href="https://www.smashingmagazine.com/2014/08/mobile-onboarding-beginners-guide/">done by the guys at Smashing Magazine.</a></p>
+		
+		<p>The script you download form Github immediately fires the onboarding and sets the cookie if you close it, so be careful. To give you an idea of what we're discussing here, you can click the button to show the onboarding. The checkbox does not actually work so it does not set a cookie</p>
+		
+		<p>Download it on Github: <a href="https://github.com/RayHyde/scrollout_menu/tree/gh-pages">https://github.com/RayHyde/scrollout_menu/tree/gh-pages</a></p>
+
+	</div>
+
+	<div id="explain">
+		<p>This project is part of my Playground - a collection of fun (and dare I say it: clever) stuff I made in the past, from jQuery games and plugins to CSS animation tricks.</p>
+		<p>Please drop in on my portfolio site <a href="http://www.rayhyde.nl">www.rayhyde.nl</a>!</p>
+	</div>
+
+	<script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="js/scrollout_menu.min.js"></script>
+</body>
+
+</html>
