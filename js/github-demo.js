@@ -11,22 +11,22 @@ $(function () {
 	/*** THE CONTENT ***/
 	var slideTexts = {
 		slide1: '<div class="onboarding-heading">New in this app</div>\
-							<img src="/img/onboarding_slide1.jpg">\
+							<img src="img/onboarding_slide1.jpg">\
 							<div class="onboarding-subheading">Use it everywhere, including your garden</div>\
 							<p>The app runs on every device, including your smartphone and tablet</p>',
 
 		slide2: '<div class="onboarding-heading">Trade online anytime</div>\
-							<img src="/img/onboarding_slide2.jpg">\
+							<img src="img/onboarding_slide2.jpg">\
 							<div class="onboarding-subheading">All your stocks in one single screen</div>\
 <p>Insight in your positions, everywhere</p>',
 
 		slide3: '<div class="onboarding-heading">“That works easy”</div>\
-							<img src="/img/onboarding_slide3.jpg">\
+							<img src="img/onboarding_slide3.jpg">\
 							<div class="onboarding-subheading">Designed together with our customers for ease of use</div>\
 							<p>Do more in fewer clicks</p>',
 
 		slide4: '<div class="onboarding-heading">Curious about all the changes?</div>\
-							<img src="/img/onboarding_slide4.jpg">\
+							<img src="img/onboarding_slide4.jpg">\
 							<div class="onboarding-subheading"><a href="" class="btn btn-default close-modal">See the change log</a>&nbsp;&nbsp;&nbsp;<a href="" class="btn btn-success close">Or start NOW! <i class="fa fa-angle-right"></i></a></div>'
 	};
 
